@@ -1,0 +1,25 @@
+@media all and (max-width: 500px) {
+
+	header {
+		font-size: 0.7em;
+	}
+
+	a.contact_button {
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 1em;
+	}
+
+	a.contact_button:hover {
+		padding: 10px;
+	}
+
+	.contact_container h1 {
+		font-size: 2em;
+	}
+
+	.contact_container img {
+		width: 100px;
+		height: 100px;
+	}
+}
