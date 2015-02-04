@@ -8,6 +8,17 @@
 	transition: all 0.5s ease;
 }
 
+a {
+	color: inherit;
+	text-decoration: inherit;
+	font-size: inherit;
+}
+
+a:hover {
+	color: #3498db;
+	text-decoration: none;
+}
+
 /*HEADER*/
 
 header {
@@ -29,6 +40,13 @@ header h2 {
 	text-align: center;
 	font-weight: 400;
 	font-size: 1.5em;
+	margin-bottom: 5%;
+}
+
+header h2 a {
+	text-align: center;
+	font-weight: 400;
+	font-size: 1em;
 	margin-bottom: 5%;
 }
 
@@ -81,6 +99,14 @@ section {
 }
 
 .site1 img {
+	width: auto;
+	max-width: 1600px;
+	max-height: 1000px;
+	height: auto;
+	margin: auto;
+}
+
+.site2 img {
 	width: auto;
 	max-width: 1600px;
 	max-height: 1000px;
