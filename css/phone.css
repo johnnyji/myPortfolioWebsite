@@ -22,4 +22,8 @@
 		width: 100px;
 		height: 100px;
 	}
+
+	footer {
+		font-size: 0.65em;
+	}
 }
