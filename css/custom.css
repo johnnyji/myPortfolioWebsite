@@ -1,11 +1,12 @@
-* {
-	box-sizing: border-box;
-	font-family: 'Lato';
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
 
-	-webkit-transition: all 0.5s ease;
-	-moz-transition: all 0.5s ease;
-	-o-transition: all 0.5s ease;
-	transition: all 0.5s ease;
+* {
+	font-family: "Lato", sans-serif;
 }
 
 a {
@@ -87,8 +88,10 @@ section {
 	margin-bottom: 3%;
 	position: relative;
 	left: 30%;
-
-	overflow: hidden;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .site-left:hover {
@@ -106,8 +109,10 @@ section {
 	margin-bottom: 3%;
 	position: relative;
 	right: 30%;
-
-	overflow: hidden;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .site-right:hover {
@@ -119,9 +124,9 @@ section {
 }
 
 /*PORTFOLIO BACKGROUND-IMAGES LOADING*/
-/*Don't understand why pictures aren't showing...*/
+
 .oybek-image {
-	background-image: url("../images/oybek.jpg") no-repeat center center fixed;
+	background-image: url("../images/oybek.gif");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -129,7 +134,23 @@ section {
 }
 
 .blog-image {
-	background-image: url("../images/johnny.jpg") no-repeat center center fixed;
+	background-image: url("../images/johnny.gif");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.retrorocket-image {
+	background-image: url("../images/retrorocket.gif");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.code2015-image {
+	background-image: url("../images/code2015.gif");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -160,6 +181,10 @@ section {
   -moz-transition: visibility opacity 0.2s;
   -o-transition: visibility opacity 0.2s;
   transition: visibility opacity 0.2s;
+  -webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .description-left p,
@@ -172,6 +197,7 @@ section {
 	left: 50%;
 	top: 50%;
 	text-align: center;
+	width: 90%;
 }
 
 .description-left:hover,
@@ -224,6 +250,10 @@ section {
 	text-decoration: none;
 	color: white;
 	font-size: 1.5em;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+	transition: all 0.5s ease;
 }
 
 .contact_button:hover {

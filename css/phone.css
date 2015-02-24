@@ -4,6 +4,14 @@
 		font-size: 0.7em;
 	}
 
+	.site-left,
+	.site-right {
+		float: none;
+		left: 0;
+		right: 0;
+		margin-bottom: 1em;
+	}
+
 	a.contact_button {
 		padding-left: 10px;
 		padding-right: 10px;
